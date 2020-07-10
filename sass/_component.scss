@@ -1,0 +1,487 @@
+.logo{
+  height: 3.25rem;
+  margin-left: 2rem;
+}
+.search{
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+     &__input{
+      padding: 0.7rem 2rem;
+      background-color: #f0eeee;
+      border: none;
+      border-radius: 20rem;
+      width: 80%;
+      margin-right: -3.5rem;
+     
+    
+     &:hover {
+      outline: none;
+      width: 100%;
+      transition: all 0.4s;
+      background-color: #f0eeee;
+    }
+    }
+    &__button{
+      border: none;
+      background-color: #f4f2f2;
+      &:focus{
+        outline: none;
+      }
+  
+    }
+    &__icon {
+      
+      height: 1.4rem;
+      width: 1.4rem; 
+      fill: gray;
+    }
+  }
+
+
+
+
+  .user-navigation{
+    
+    width: 18rem;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+  
+    justify-content: space-between;
+    
+
+            &__user-name{
+              font-family: sans-serif;;
+              text-transform: uppercase;
+              color: gray;
+              align-self: center;
+              font-size: 16px;;
+              
+            }
+
+          &__icon-box{
+            position: relative;
+            height: 100%;
+            &:hover{
+              background-color:#f4f2f2;
+            }
+          }
+            
+            &__icon{
+              padding: 1rem;
+              margin-top: 1.6rem;
+              height: 2rem;
+              width: 2rem;
+              fill: grey;
+             
+            }
+
+           &__notification{
+             background-color: #eb2f64;
+             font-size: .8rem;
+             height: 1.75rem;
+             width: 1.75rem;
+             border-radius: 50%;
+             
+             color: #fff;
+             position: absolute;
+             top: 1.5rem;
+             left: 2rem;
+     
+             display: flex;
+             justify-content: center;
+             align-items: center;
+          
+           
+           }
+              
+             
+         
+           
+          &__user{
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            width: 8rem;
+          
+            &:hover{
+              background-color:#f4f2f2;
+            }
+
+          }
+         
+            &__user-photo{
+              margin-top: 1.6rem;
+              position: relative;
+              border-radius: 50%;
+              height: 3rem;
+              width: 3rem;
+             
+            }
+          }
+  
+
+
+
+  .side-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3.2rem;
+   
+    height: 21rem;
+    width: 17rem;
+
+  
+    
+    &__home{
+      
+      display: flex;
+      align-items: center;
+      background-color:red;
+      height: 5rem;
+      width: 17rem;
+    }
+    &__trillo{
+      align-items: center; 
+      display: flex;
+      background-color:#333;
+      height: 5rem;
+      width: 17rem;
+      &:hover{
+        background-color: red;
+      }
+    }
+   
+    &__icon{
+     margin-left:3rem;
+      height: 1.75rem;
+      width: 1.75rem;
+      fill: white;
+    }
+    &__iconname{
+      margin-left: 2rem;
+      text-transform: uppercase;
+      color:white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  
+  
+  .legal{
+    text-align: center;
+    color: white;
+    margin: 2rem;
+    margin-top: 43rem;
+  
+}
+  
+  
+
+
+.gallary{
+  display: flex;
+  &__item{
+    position:relative;
+  }
+  &__hotelpic{
+    display: block;
+    width: 100%;
+  }
+}
+
+
+.overview{
+ border-bottom: 1px solid #f4f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-row: 3/4;
+  grid-column: 2/3;
+   
+   &__hotelandrating{
+    
+     width:24rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+     &__heading{
+       font-size: 24px;
+       font-family: Arial, Helvetica, sans-serif;;
+       text-transform: uppercase;
+       margin-left: 1rem;}
+     
+     
+     &__icon-star{
+       
+       height: 1rem;
+       width: 1rem;
+       fill: red;
+     }
+     &__locationandrating{
+       display: flex;
+       justify-content: space-between;
+      
+       align-items: center;
+       width: 22rem;
+      
+     }
+     &__location {
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+     &__icon-location {
+      margin-right: 0.5rem;
+      height: 1.75rem;
+      width: 1.75rem;
+      fill: red;
+     }
+     &__rating {
+      align-self: stretch;
+      background-color:  #eb2f64;
+  
+      color:white;
+      padding: 0 2.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+     &__average {
+      font-size: 2.25rem;
+      font-weight: 300;
+     }
+     &__count {
+      font-style: 0.8rem;
+      text-transform: uppercase;
+     }
+    }
+}
+.btn-inline{
+  font-size: 16px;
+  border: none;
+  color:  #eb2f64;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  background-color: transparent;
+  &:hover{
+    color: gray;
+    border-bottom: none;
+  }
+ &:focus{
+   outline: none;
+ }
+}
+
+
+////mainhotel part1
+
+.paragraph{
+  font-family: sans-serif;
+  margin: 2rem 2rem;
+  color: #777777;
+}
+
+.list{
+  font-family: sans-serif;
+list-style: none;
+  color: #777777;
+  height: 6rem;
+  margin: 2rem ;
+  padding: 3rem 1rem;
+  border-top: 1px solid #f4f2f2;
+  border-bottom:  1px solid #f4f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    
+    flex: 0 0 50%;
+    margin-bottom: 0.7rem;
+  }
+  &__item::before{
+    content: "";
+    display: inline-block;
+    height: 0.8rem;
+    width: 1rem;
+    margin-right: .6rem;
+    background-image: url(../img/svg/arrow-right2.svg);
+    
+    background-size: cover;
+    
+  }
+}
+
+
+.recommend{
+  font-family: sans-serif;
+  font-size: 1rem;
+  color:#999;
+  display: flex;
+  align-items: center; 
+  margin: 1rem;
+ 
+
+  &__number{
+    margin: 1rem;
+    padding: 1rem 1rem;
+  }
+  &__friends{
+    display: flex;
+    margin-right: 1rem;
+    margin-bottom:2rem;
+  }
+  &__photo{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: -2rem;
+  }
+}
+
+
+///hotel part2
+
+.review {
+  
+ background-color: white;
+  position: relative;
+
+  width: 22rem;
+  height: 12rem;
+  padding: 0rem;
+  margin: 0rem;
+  &__text {
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #777777;
+    font-size: 14px;
+    z-index: 10;
+    position: relative;
+  }
+  &__user {
+
+    display: flex;
+    align-items: center;
+  }
+  &__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  &__user-name {
+    margin-left: 0.5rem;
+    font-size: 14px;
+    text-transform: uppercase;
+   
+    margin-top: 0.5rem;
+  }
+  &__user-date {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: gray;
+  }
+  &__rating {
+    color:red;
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    margin-right: 4rem;
+  }
+  &__user-box {
+    margin-right: auto;
+  }
+
+  &::before {
+    content: "\201C";
+    position:absolute;
+    top: -1.6rem;
+    left: -0.6rem;
+    font-size: 13rem;
+    line-height: 1;
+    color:  #f4f2f2;
+    font-family: sans-serif;
+
+ 
+  }
+}
+  
+//booking
+
+.booking{
+ 
+  background:#fff;
+  border-bottom: 1px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  height: 13rem;
+
+  &__book-now{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300px;
+  }
+}
+
+.btn{
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color:white;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 300px;
+  position: relative;
+  height:6rem;
+  width: 20rem;
+  text-transform: uppercase;
+  border-radius: 100px;
+  
+  background-image: linear-gradient(to right,#FF3366,#BA265D);
+ overflow: hidden;
+ cursor: pointer;
+ 
+  
+  &__visible {
+    
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 2rem 0.5rem;
+  
+   
+}
+
+&__invisible {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 2rem 0;
+  left: 0;
+  top: -100%;
+}
+&:focus{
+  outline: none;
+}
+
+&:hover {
+  background-image: linear-gradient(to left,#FF3366,#BA265D);
+}
+&:hover &__visible {
+  transform: translateY(100%);
+}
+
+&:hover &__invisible {
+  top: 0;
+}
+
+}
